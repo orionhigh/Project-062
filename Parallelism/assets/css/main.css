@@ -149,7 +149,7 @@
 	bottom: 0;
 	left: 0;
 	background: #1a1f2c;
-	background: rgba(18, 21, 29, 0.85);
+	background: rgba(18, 21, 29, 0.5); /* Background for subheading reel*/
 	width: 100%;
 	padding: 1em;
 	font-weight: 400;
@@ -278,7 +278,7 @@
 	float: left;
 	position: relative;
 	overflow: hidden;
-	background-color: #303030;
+	background-color: #053A6D; /*Background Colour of reel items */
 				}
 
 		/* Header */
@@ -313,7 +313,7 @@
 	line-height: 1.5em;
 	margin: 0.5em 0 0 0;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #FFD81F;
+	color: #053A6D;
 				}
 
 		/* Footer */
@@ -362,8 +362,8 @@
 		/* Popup */
 
 			.poptrox-popup {
-				background: #1a1f2c;
-				background: rgba(18, 21, 29, 0.9);
+				background: #053A6D;
+				background: #053A6D; /* Background colour of Popup */
 				box-shadow: 0px 0px 0px 10px #fff, 0px 10px 60px 10px rgba(8, 11, 19, 0.55);
 				cursor: default;
 			}
@@ -385,8 +385,8 @@
 					bottom: 0;
 					left: 0;
 					background: #1a1f2c;
-					background: rgba(18, 21, 29, 0.85);
-					display: block;
+					background: rgba(18, 21, 29, 0.5); /*Subheading background colour popover */
+					display: block; 
 					width: 100%;
 					line-height: 75px;
 					text-align: center;
@@ -567,7 +567,7 @@
 		/* Popup */
 
 			.poptrox-popup {
-				background: #0a0f1c;
+				background: #053A6D;
 				box-shadow: 0px 0px 30px 10px rgba(8, 11, 19, 0.85);
 				border: solid 2.5px #fff;
 				-moz-box-sizing: content-box;

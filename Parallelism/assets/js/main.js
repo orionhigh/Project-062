@@ -14,7 +14,7 @@ var parallelism = (function($) { var _ = {
 			settings: {
 
 				// Popup overlay color.
-					popupOverlayColor: '#1a1f2c',
+					popupOverlayColor: '#1a1f2c', /* Blur Colour when reel clicked */
 
 				// Popup overlay opacity.
 					popupOverlayOpacity: 0.75,
@@ -36,7 +36,7 @@ var parallelism = (function($) { var _ = {
 						introSpeed: 750,
 
 					// Height (in px) of items.
-						itemHeight: 256,
+						itemHeight: 282,
 
 					// Default width (in px) of width.
 						itemWidth: 300,
@@ -57,10 +57,10 @@ var parallelism = (function($) { var _ = {
 						minRows: 1,
 
 					// Padding (in px) between items (0 = no padding).
-						padding: 5,
+						padding: 3,
 
 					// Padding color.
-						paddingColor: '#595050',
+						paddingColor: '#FFFFFF',
 
 					// If true, reel scroll will reset on page refresh.
 						resetScroll: true,
