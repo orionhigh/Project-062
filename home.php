@@ -30,7 +30,7 @@ $userRow=mysql_fetch_array($res);
     </head>
     <body>
 
-            hi' <?php echo $userRow['username']; ?>&nbsp;<a href="logout.php?logout">Sign Out</a>
+    
 
 <!--<div id="wrapper">
 <aside class="Title 1"><strong></strong></aside>
@@ -44,31 +44,40 @@ $userRow=mysql_fetch_array($res);
     <!--Header Item  -->
     
     
-    <div id="header" class="item" data-width="400">
-     <h2>Project 062</h2>
+    <div id="header" class="item" data-width="450" style="padding-top:0em">
+    <div style="font-size:25px; color:white">
+    Welcome <?php echo $userRow['username']; ?>&nbsp;&nbsp;&nbsp;<a href="logout.php?logout">Sign Out</a>
+    </div>
+    <h2>Project 062</h2>
+    <br />
+    <form action="upload_file.php" method="post" enctype="multipart/form-data">
+    <label for="file" style="font-size:25px; color:white"><span>Upload File:</span></label>
+    <input type="file" name="file" id="file" /> 
+    <br />
+    <input type="submit" name="submit" value="Upload" />
+    </form>
      <!-- <p style="font-size: 60px;  width: 400px;">
       Project-062 </p>
 <div class="inner"> </div>  -->
                         </div> 
                         <!--<div id="header" class="item" data-width="400"> -->
+
                         
-                       
+                        
+                       <!--  <a href="upload/0001.jpg" download> -->
     
     <!-- Thumb Items -->
     <article class="item thumb" data-width="256">
-      <h2>Movies</h2>
-      <a href="images/png/popcorn6.png" class="image"><img src="images/png_half/popcorn6.png" alt=""></a> </article>
-    <article class="item thumb" data-width="256">
-      <h2>TV Shows</h2>
+      <a class="sprite_stumbleupon" href="videos.php" target="_blank" onclick="return windowpop(this.href, 1000, 433)"><h2>Videos</h2></a>
       <a href="images/png/play-button4.png" class="image"><img src="images/png_half/play-button4.png" alt=""></a> </article>
     <article class="item thumb" data-width="256">
-      <h2>Music.</h2>
+      <a class="sprite_stumbleupon" href="music.php" target="_blank" onclick="return windowpop(this.href, 1000, 433)"><h2>Music.</h2></a>
       <a href="images/png/circular263.png" class="image"><img src="images/png_half/circular263.png" alt=""></a> </article>
     <article class="item thumb" data-width="256">
-      <h2>eBooks</h2>
+      <a class="sprite_stumbleupon" href="ebooks.php" target="_blank" onclick="return windowpop(this.href, 1000, 433)"><h2>eBooks</h2></a>
       <a href="images/png/books8.png" class="image"><img src="images/png_half/books8.png" alt=""></a> </article>
     <article class="item thumb" data-width="256">
-      <h2>Photos</h2>
+      <a class="sprite_stumbleupon" href="photos.php" target="_blank" onclick="return windowpop(this.href, 1000, 433)"><h2>Photos</h2></a>
       <a href="images/png/camera3.png" class="image"><img src="images/png_half/camera3.png" alt=""></a> </article>
       <article class="item thumb" data-width="256">
       <h2>Settings</h2>
