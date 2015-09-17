@@ -1,52 +1,3 @@
-<!DOCTYPE html>
-<?php
-  session_start();
-?>
-<html class=''>
-  <head>
-    <meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="canonical" href="http://codepen.io/ashblue/pen/mCtuA" />
-
-    <link rel='stylesheet prefetch' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'><link rel='stylesheet prefetch' href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
-    <style class="cp-pen-styles">
-      .table-editable {
-        position: relative;
-      }
-      .table-editable .glyphicon {
-        font-size: 20px;
-      }
-
-      .table-remove {
-        color: #700;
-        cursor: pointer;
-      }
-      .table-remove:hover {
-        color: #f00;
-      }
-
-      .table-up, .table-down {
-        color: #007;
-        cursor: pointer;
-      }
-      .table-up:hover, .table-down:hover {
-        color: #00f;
-      }
-
-      .table-add {
-        color: #070;
-        cursor: pointer;
-        position: absolute;
-        top: 8px;
-        right: 0;
-      }
-      .table-add:hover {
-        color: #0b0;
-      }
-    </style>
-  </head>
-
-
-
-
 <?php
 $servername = "localhost";
 $username = "root";
@@ -64,11 +15,11 @@ $user = $_SESSION['user'];
 
 $sql = "SELECT * FROM media
 WHERE owner = $user
-AND (type='audio/mp3')";
+AND (type='audio/mp3' OR type='audio/wma')";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    echo "<body> <div class='container'>
+    echo "
         <div id='table' class='table-editable'>
           <table class='table'>
             <tr>
@@ -82,12 +33,12 @@ if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
         echo "<tr>
-              <td contenteditable='true'>".$row["location"]."</td>
-              <td contenteditable='true'>Tag example</td>
-              <td contenteditable='false'>2015-example</td>
+              <td contenteditable='true'>".substr($row["location"], 0, 10)."</td>
+              <td contenteditable='true'>".$row["tags"]."</td>
+              <td contenteditable='false'>".$row["uploaded"]."<a name='" . $row["location"] . "'></a></td>
               <td contenteditable='false'><a href='upload/".$row["location"]."' target='_blank' download>Download Audio</a></td>
               <td>
-                <span class='table-remove glyphicon glyphicon-remove'></span>
+                <span class='table-remove glyphicon glyphicon-remove' id=".$row['location']." onClick='reply_click(this.id)'></span>
               </td>
               <td>
                 <span class='table-up glyphicon glyphicon-arrow-up'></span>
@@ -99,13 +50,19 @@ if ($result->num_rows > 0) {
           </div>
           <button id='export-btn' class='btn btn-primary'>Save Changes</button>
         <p id='export'></p>
-      </div>";
+      ";
 } else {
     echo "No Audio has been uploaded";
 }
 $conn->close();
 ?>
 
+<script type="text/javascript">
+function reply_click(clicked_id)
+{
+    window.location.href = "deletefile.php?file=" + clicked_id + "&type=audio";
+}
+</script>
 
       <script src='//assets.codepen.io/assets/common/stopExecutionOnTimeout.js?t=1'></script><script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script src='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script><script src='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js'></script><script src='//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore.js'></script>
       <script>
@@ -150,8 +107,3 @@ $conn->close();
       });
       </script>
       <script src='//codepen.io/assets/editor/live/css_live_reload_init.js'></script>
-
-
-    </body>
-
-</html>

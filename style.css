@@ -13,13 +13,12 @@
 table
 {
 	border:solid #dcdcdc 1px;
-	padding:25px;
+	padding:0px;
 	box-shadow: 0px 0px 1px rgba(0,0,0,0.2);
 }
 table tr,td
 {
 	padding:15px;
-	//border:solid #e1e1e1 1px;
 }
 table tr td input
 {

@@ -26,11 +26,14 @@ SET time_zone = "+00:00";
 -- Table structure for table `media`
 --
 
-CREATE TABLE IF NOT EXISTS `media` (
-  `owner` varchar(255) NOT NULL,
-  `type` varchar(255) NOT NULL,
-  `location` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+CREATE TABLE `media` (
+`order` INT( 10 ) NOT NULL AUTO_INCREMENT ,
+`owner` VARCHAR( 32 ) NOT NULL ,
+`type` VARCHAR( 32 ) NOT NULL ,
+`tags` VARCHAR( 200 ) NOT NULL ,
+`name` VARCHAR( 200 ) NOT NULL ,
+`location` TEXT NOT NULL ,
+) ENGINE = MYISAM ;
 
 --
 -- Dumping data for table `media`

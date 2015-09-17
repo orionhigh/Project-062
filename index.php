@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 include_once 'dbconnect.php';
 
 if(isset($_SESSION['user'])!="")
@@ -14,7 +15,7 @@ if(isset($_POST['btn-login']))
 	$res=mysql_query("SELECT * FROM users WHERE email='$email'");
 	$row=mysql_fetch_array($res);
 	
-	if($row['password']==md5($upass))
+	if($row['password']==md5($upass) && $row['active']=='1')
 	{
 		$_SESSION['user'] = $row['user_id'];
 		header("Location: home.php");
@@ -22,7 +23,7 @@ if(isset($_POST['btn-login']))
 	else
 	{
 		?>
-        <script>alert('wrong details');</script>
+        <script>alert('Please make sure you have entered the correct details and activated your account');</script>
         <?php
 	}
 	
