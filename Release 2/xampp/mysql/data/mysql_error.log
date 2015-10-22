@@ -1,0 +1,694 @@
+2015-10-22 17:20:50 1c34 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+151022 17:20:50 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+151022 17:20:50 [Note] InnoDB: The InnoDB memory heap is disabled
+151022 17:20:50 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+151022 17:20:50 [Note] InnoDB: Memory barrier is not used
+151022 17:20:50 [Note] InnoDB: Compressed tables use zlib 1.2.3
+151022 17:20:50 [Note] InnoDB: Not using CPU crc32 instructions
+151022 17:20:50 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+151022 17:20:50 [Note] InnoDB: Completed initialization of buffer pool
+151022 17:20:50 [Note] InnoDB: Highest supported file format is Barracuda.
+151022 17:20:51 [Note] InnoDB: 128 rollback segment(s) are active.
+151022 17:20:51 [Note] InnoDB: Waiting for purge to start
+151022 17:20:51 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.22-72.0 started; log sequence number 1665234
+151022 17:20:51 [Note] Plugin 'FEEDBACK' is disabled.
+151022 17:20:51 [Note] Server socket created on IP: '::'.
+151022 17:20:51 [ERROR] Can't start server: Bind on TCP/IP port. Got error: 10048: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+
+151022 17:20:51 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+151022 17:20:51 [ERROR] Aborting
+
+151022 17:20:51 [Note] InnoDB: FTS optimize thread exiting.
+151022 17:20:51 [Note] InnoDB: Starting shutdown...
+151022 17:20:53 [Note] InnoDB: Shutdown completed; log sequence number 1665244
+151022 17:20:53 [Note] d:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2015-10-22 17:21:19 1d68 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+151022 17:21:19 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+151022 17:21:19 [Note] InnoDB: The InnoDB memory heap is disabled
+151022 17:21:19 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+151022 17:21:19 [Note] InnoDB: Memory barrier is not used
+151022 17:21:19 [Note] InnoDB: Compressed tables use zlib 1.2.3
+151022 17:21:19 [Note] InnoDB: Not using CPU crc32 instructions
+151022 17:21:19 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+151022 17:21:19 [Note] InnoDB: Completed initialization of buffer pool
+151022 17:21:19 [Note] InnoDB: Highest supported file format is Barracuda.
+151022 17:21:20 [Note] InnoDB: 128 rollback segment(s) are active.
+151022 17:21:20 [Note] InnoDB: Waiting for purge to start
+151022 17:21:20 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.22-72.0 started; log sequence number 1665244
+151022 17:21:20 [Note] Plugin 'FEEDBACK' is disabled.
+151022 17:21:20 [Note] Server socket created on IP: '::'.
+151022 17:21:20 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:21:22 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+151022 17:21:22 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+151022 17:21:22 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1146: Table 'mysql.gtid_slave_pos' doesn't exist
+151022 17:21:22 [Note] d:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.0.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+151022 17:25:14 [ERROR] mysqld.exe: Incorrect key file for table '.\mysql\user.MYI'; try to repair it
+151022 17:25:14 [ERROR] Got error 126 when reading table '.\mysql\user'
+151022 17:25:14 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2015-10-22 17:25:17 950 InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-22 17:25:17 950 InnoDB: Error: Fetch of persistent statistics requested for table "phpmyadmin"."pma_navigationhiding" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-10-22 17:25:19 950 InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-22 17:25:19 950 InnoDB: Error: Fetch of persistent statistics requested for table "phpmyadmin"."pma_usergroups" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-10-22 17:25:19 950 InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-22 17:25:19 950 InnoDB: Error: Fetch of persistent statistics requested for table "phpmyadmin"."pma_users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+151022 17:25:45 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:26:00 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:26:12 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:26:21 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:26:30 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:26:40 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:26:49 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:26:57 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:27:00 [ERROR] Incorrect definition of table mysql.proc: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVA
+151022 17:27:11 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:27:17 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:27:23 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:27:49 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:27:56 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:28:02 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:28:15 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:28:26 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:30:00 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:30:04 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:30:11 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:30:17 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:30:26 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:30:31 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2015-10-22 17:30:37 170c InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+151022 17:30:47 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:30:59 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:31:03 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:31:13 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2015-10-22 17:31:14 170c InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-22 17:31:14 170c InnoDB: Error: Fetch of persistent statistics requested for table "dbtest"."media" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+151022 17:31:19 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 17:31:26 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2015-10-22 17:31:27 fa4 InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+151022 17:31:34 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2015-10-22 17:35:13 12a0 InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-22 17:35:13 12a0 InnoDB: Error: Fetch of persistent statistics requested for table "dbtest"."users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-10-22 17:45:22 1958 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+151022 17:45:22 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+151022 17:45:22 [Note] InnoDB: The InnoDB memory heap is disabled
+151022 17:45:22 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+151022 17:45:22 [Note] InnoDB: Memory barrier is not used
+151022 17:45:22 [Note] InnoDB: Compressed tables use zlib 1.2.3
+151022 17:45:22 [Note] InnoDB: Not using CPU crc32 instructions
+151022 17:45:22 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+151022 17:45:22 [Note] InnoDB: Completed initialization of buffer pool
+151022 17:45:22 [Note] InnoDB: Highest supported file format is Barracuda.
+151022 17:45:22 [Note] InnoDB: The log sequence numbers 1665244 and 1665244 in ibdata files do not match the log sequence number 1672081 in the ib_logfiles!
+151022 17:45:22 [Note] InnoDB: Database was not shutdown normally!
+151022 17:45:22 [Note] InnoDB: Starting crash recovery.
+151022 17:45:22 [Note] InnoDB: Reading tablespace information from the .ibd files...
+151022 17:45:22 [Note] InnoDB: Restoring possible half-written data pages 
+151022 17:45:22 [Note] InnoDB: from the doublewrite buffer...
+151022 17:45:23 [Note] InnoDB: 128 rollback segment(s) are active.
+151022 17:45:23 [Note] InnoDB: Waiting for purge to start
+151022 17:45:23 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.22-72.0 started; log sequence number 1672081
+151022 17:45:23 [Note] Plugin 'FEEDBACK' is disabled.
+151022 17:45:23 [Note] Server socket created on IP: '::'.
+2015-10-22 17:57:53 1f68 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+151022 17:57:53 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+151022 17:57:53 [Note] InnoDB: The InnoDB memory heap is disabled
+151022 17:57:53 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+151022 17:57:53 [Note] InnoDB: Memory barrier is not used
+151022 17:57:53 [Note] InnoDB: Compressed tables use zlib 1.2.3
+151022 17:57:53 [Note] InnoDB: Not using CPU crc32 instructions
+151022 17:57:53 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+151022 17:57:53 [Note] InnoDB: Completed initialization of buffer pool
+151022 17:57:53 [Note] InnoDB: Highest supported file format is Barracuda.
+151022 17:57:53 [Note] InnoDB: The log sequence numbers 1665244 and 1665244 in ibdata files do not match the log sequence number 1672091 in the ib_logfiles!
+151022 17:57:53 [Note] InnoDB: Database was not shutdown normally!
+151022 17:57:53 [Note] InnoDB: Starting crash recovery.
+151022 17:57:53 [Note] InnoDB: Reading tablespace information from the .ibd files...
+151022 17:57:54 [Note] InnoDB: Restoring possible half-written data pages 
+151022 17:57:54 [Note] InnoDB: from the doublewrite buffer...
+151022 17:57:54 [Note] InnoDB: 128 rollback segment(s) are active.
+151022 17:57:54 [Note] InnoDB: Waiting for purge to start
+151022 17:57:54 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.22-72.0 started; log sequence number 1672091
+151022 17:57:54 [Note] Plugin 'FEEDBACK' is disabled.
+151022 17:57:54 [Note] Server socket created on IP: '::'.
+2015-10-22 18:03:50 2318 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+151022 18:03:50 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+151022 18:03:50 [Note] InnoDB: The InnoDB memory heap is disabled
+151022 18:03:50 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+151022 18:03:50 [Note] InnoDB: Memory barrier is not used
+151022 18:03:50 [Note] InnoDB: Compressed tables use zlib 1.2.3
+151022 18:03:50 [Note] InnoDB: Not using CPU crc32 instructions
+151022 18:03:50 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+151022 18:03:50 [Note] InnoDB: Completed initialization of buffer pool
+151022 18:03:50 [Note] InnoDB: Highest supported file format is Barracuda.
+151022 18:03:50 [Note] InnoDB: The log sequence numbers 1665244 and 1665244 in ibdata files do not match the log sequence number 1672101 in the ib_logfiles!
+151022 18:03:50 [Note] InnoDB: Database was not shutdown normally!
+151022 18:03:50 [Note] InnoDB: Starting crash recovery.
+151022 18:03:50 [Note] InnoDB: Reading tablespace information from the .ibd files...
+151022 18:03:50 [Note] InnoDB: Restoring possible half-written data pages 
+151022 18:03:50 [Note] InnoDB: from the doublewrite buffer...
+151022 18:03:51 [Note] InnoDB: 128 rollback segment(s) are active.
+151022 18:03:51 [Note] InnoDB: Waiting for purge to start
+151022 18:03:51 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.22-72.0 started; log sequence number 1672101
+151022 18:03:51 [Note] Plugin 'FEEDBACK' is disabled.
+151022 18:03:51 [Note] Server socket created on IP: '::'.
+2015-10-22 18:11:09 19d8 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+151022 18:11:09 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+151022 18:11:09 [Note] InnoDB: The InnoDB memory heap is disabled
+151022 18:11:09 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+151022 18:11:09 [Note] InnoDB: Memory barrier is not used
+151022 18:11:09 [Note] InnoDB: Compressed tables use zlib 1.2.3
+151022 18:11:09 [Note] InnoDB: Not using CPU crc32 instructions
+151022 18:11:09 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+151022 18:11:09 [Note] InnoDB: Completed initialization of buffer pool
+151022 18:11:09 [Note] InnoDB: Highest supported file format is Barracuda.
+151022 18:11:09 [Note] InnoDB: The log sequence numbers 1665244 and 1665244 in ibdata files do not match the log sequence number 1672111 in the ib_logfiles!
+151022 18:11:09 [Note] InnoDB: Database was not shutdown normally!
+151022 18:11:09 [Note] InnoDB: Starting crash recovery.
+151022 18:11:09 [Note] InnoDB: Reading tablespace information from the .ibd files...
+151022 18:11:09 [Note] InnoDB: Restoring possible half-written data pages 
+151022 18:11:09 [Note] InnoDB: from the doublewrite buffer...
+151022 18:11:10 [Note] InnoDB: 128 rollback segment(s) are active.
+151022 18:11:10 [Note] InnoDB: Waiting for purge to start
+151022 18:11:10 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.22-72.0 started; log sequence number 1672111
+151022 18:11:10 [Note] Plugin 'FEEDBACK' is disabled.
+151022 18:11:10 [Note] Server socket created on IP: '::'.
+151022 18:11:10 [ERROR] mysqld.exe: Table '.\mysql\db' is marked as crashed and should be repaired
+151022 18:11:10 [Warning] Checking table:   '.\mysql\db'
+151022 18:11:10 [ERROR] mysql.db: 1 client is using or hasn't closed the table properly
+151022 18:11:10 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:11:10 [ERROR] mysqld.exe: Table '.\mysql\tables_priv' is marked as crashed and should be repaired
+151022 18:11:10 [Warning] Checking table:   '.\mysql\tables_priv'
+151022 18:11:10 [ERROR] mysql.tables_priv: 1 client is using or hasn't closed the table properly
+151022 18:11:10 [ERROR] mysqld.exe: Table '.\mysql\columns_priv' is marked as crashed and should be repaired
+151022 18:11:10 [Warning] Checking table:   '.\mysql\columns_priv'
+151022 18:11:10 [ERROR] mysql.columns_priv: 1 client is using or hasn't closed the table properly
+151022 18:11:10 [ERROR] mysqld.exe: Table '.\mysql\procs_priv' is marked as crashed and should be repaired
+151022 18:11:10 [Warning] Checking table:   '.\mysql\procs_priv'
+151022 18:11:10 [ERROR] mysql.procs_priv: 1 client is using or hasn't closed the table properly
+151022 18:11:10 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+151022 18:11:10 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+151022 18:11:12 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1146: Table 'mysql.gtid_slave_pos' doesn't exist
+151022 18:11:12 [Note] d:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.0.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+151022 18:12:46 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2015-10-22 18:12:47 2b8 InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-22 18:12:47 2b8 InnoDB: Error: Fetch of persistent statistics requested for table "phpmyadmin"."pma_navigationhiding" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-10-22 18:12:47 2b8 InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-22 18:12:47 2b8 InnoDB: Error: Fetch of persistent statistics requested for table "phpmyadmin"."pma_usergroups" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-10-22 18:12:47 2b8 InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-22 18:12:47 2b8 InnoDB: Error: Fetch of persistent statistics requested for table "phpmyadmin"."pma_users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-10-22 18:37:37 21bc InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+151022 18:37:37 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+151022 18:37:37 [Note] InnoDB: The InnoDB memory heap is disabled
+151022 18:37:37 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+151022 18:37:37 [Note] InnoDB: Memory barrier is not used
+151022 18:37:37 [Note] InnoDB: Compressed tables use zlib 1.2.3
+151022 18:37:37 [Note] InnoDB: Not using CPU crc32 instructions
+151022 18:37:37 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+151022 18:37:37 [Note] InnoDB: Completed initialization of buffer pool
+151022 18:37:37 [Note] InnoDB: Highest supported file format is Barracuda.
+151022 18:37:37 [Note] InnoDB: The log sequence numbers 1665244 and 1665244 in ibdata files do not match the log sequence number 1672121 in the ib_logfiles!
+151022 18:37:37 [Note] InnoDB: Database was not shutdown normally!
+151022 18:37:37 [Note] InnoDB: Starting crash recovery.
+151022 18:37:37 [Note] InnoDB: Reading tablespace information from the .ibd files...
+151022 18:37:37 [Note] InnoDB: Restoring possible half-written data pages 
+151022 18:37:37 [Note] InnoDB: from the doublewrite buffer...
+151022 18:37:38 [Note] InnoDB: 128 rollback segment(s) are active.
+151022 18:37:38 [Note] InnoDB: Waiting for purge to start
+151022 18:37:38 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.22-72.0 started; log sequence number 1672121
+151022 18:37:38 [Note] Plugin 'FEEDBACK' is disabled.
+151022 18:37:38 [Note] Server socket created on IP: '::'.
+2015-10-22 18:42:25 1a5c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+151022 18:42:25 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+151022 18:42:25 [Note] InnoDB: The InnoDB memory heap is disabled
+151022 18:42:25 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+151022 18:42:25 [Note] InnoDB: Memory barrier is not used
+151022 18:42:25 [Note] InnoDB: Compressed tables use zlib 1.2.3
+151022 18:42:25 [Note] InnoDB: Not using CPU crc32 instructions
+151022 18:42:25 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+151022 18:42:25 [Note] InnoDB: Completed initialization of buffer pool
+151022 18:42:25 [Note] InnoDB: Highest supported file format is Barracuda.
+151022 18:42:25 [Note] InnoDB: The log sequence numbers 1665244 and 1665244 in ibdata files do not match the log sequence number 1672131 in the ib_logfiles!
+151022 18:42:25 [Note] InnoDB: Database was not shutdown normally!
+151022 18:42:25 [Note] InnoDB: Starting crash recovery.
+151022 18:42:25 [Note] InnoDB: Reading tablespace information from the .ibd files...
+151022 18:42:25 [Note] InnoDB: Restoring possible half-written data pages 
+151022 18:42:25 [Note] InnoDB: from the doublewrite buffer...
+151022 18:42:26 [Note] InnoDB: 128 rollback segment(s) are active.
+151022 18:42:26 [Note] InnoDB: Waiting for purge to start
+151022 18:42:26 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.22-72.0 started; log sequence number 1672131
+151022 18:42:26 [Note] Plugin 'FEEDBACK' is disabled.
+151022 18:42:26 [Note] Server socket created on IP: '::'.
+151022 18:42:26 [ERROR] mysqld.exe: Table '.\mysql\db' is marked as crashed and should be repaired
+151022 18:42:26 [Warning] Checking table:   '.\mysql\db'
+151022 18:42:26 [ERROR] mysql.db: 1 client is using or hasn't closed the table properly
+151022 18:42:26 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:42:26 [ERROR] mysqld.exe: Table '.\mysql\columns_priv' is marked as crashed and should be repaired
+151022 18:42:26 [Warning] Checking table:   '.\mysql\columns_priv'
+151022 18:42:26 [ERROR] mysql.columns_priv: 1 client is using or hasn't closed the table properly
+151022 18:42:26 [ERROR] mysqld.exe: Table '.\mysql\procs_priv' is marked as crashed and should be repaired
+151022 18:42:26 [Warning] Checking table:   '.\mysql\procs_priv'
+151022 18:42:26 [ERROR] mysql.procs_priv: 1 client is using or hasn't closed the table properly
+151022 18:42:28 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+151022 18:42:28 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+151022 18:42:28 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1146: Table 'mysql.gtid_slave_pos' doesn't exist
+151022 18:42:28 [Note] d:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.0.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+151022 18:44:19 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:44:19 [ERROR] mysqld.exe: Table '.\phpmyadmin\pma_userconfig' is marked as crashed and should be repaired
+151022 18:44:19 [Warning] Checking table:   '.\phpmyadmin\pma_userconfig'
+2015-10-22 18:44:22 1f54 InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-22 18:44:22 1f54 InnoDB: Error: Fetch of persistent statistics requested for table "phpmyadmin"."pma_navigationhiding" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-10-22 18:44:26 1f54 InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-22 18:44:26 1f54 InnoDB: Error: Fetch of persistent statistics requested for table "phpmyadmin"."pma_usergroups" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-10-22 18:44:26 1f54 InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-22 18:44:26 1f54 InnoDB: Error: Fetch of persistent statistics requested for table "phpmyadmin"."pma_users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-10-22 18:56:32 778 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+151022 18:56:32 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+151022 18:56:32 [Note] InnoDB: The InnoDB memory heap is disabled
+151022 18:56:32 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+151022 18:56:32 [Note] InnoDB: Memory barrier is not used
+151022 18:56:32 [Note] InnoDB: Compressed tables use zlib 1.2.3
+151022 18:56:32 [Note] InnoDB: Not using CPU crc32 instructions
+151022 18:56:32 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+151022 18:56:32 [Note] InnoDB: Completed initialization of buffer pool
+151022 18:56:32 [Note] InnoDB: Highest supported file format is Barracuda.
+151022 18:56:32 [Note] InnoDB: The log sequence numbers 1665244 and 1665244 in ibdata files do not match the log sequence number 1672141 in the ib_logfiles!
+151022 18:56:32 [Note] InnoDB: Database was not shutdown normally!
+151022 18:56:32 [Note] InnoDB: Starting crash recovery.
+151022 18:56:32 [Note] InnoDB: Reading tablespace information from the .ibd files...
+151022 18:56:32 [Note] InnoDB: Restoring possible half-written data pages 
+151022 18:56:32 [Note] InnoDB: from the doublewrite buffer...
+151022 18:56:33 [Note] InnoDB: 128 rollback segment(s) are active.
+151022 18:56:33 [Note] InnoDB: Waiting for purge to start
+151022 18:56:33 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.22-72.0 started; log sequence number 1672141
+151022 18:56:33 [Note] Plugin 'FEEDBACK' is disabled.
+151022 18:56:33 [Note] Server socket created on IP: '::'.
+151022 18:56:33 [ERROR] mysqld.exe: Table '.\mysql\db' is marked as crashed and should be repaired
+151022 18:56:33 [Warning] Checking table:   '.\mysql\db'
+151022 18:56:33 [ERROR] mysql.db: 1 client is using or hasn't closed the table properly
+151022 18:56:34 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:56:34 [ERROR] mysqld.exe: Table '.\mysql\tables_priv' is marked as crashed and should be repaired
+151022 18:56:34 [Warning] Checking table:   '.\mysql\tables_priv'
+151022 18:56:34 [ERROR] mysql.tables_priv: 1 client is using or hasn't closed the table properly
+151022 18:56:34 [ERROR] mysql.tables_priv: Found more than the expected 1 deleted rows in delete link chain
+151022 18:56:34 [ERROR] mysql.tables_priv: record delete-link-chain corrupted
+151022 18:56:34 [ERROR] Got an error from unknown thread, ha_myisam.cc:952
+151022 18:56:34 [Warning] Recovering table: '.\mysql\tables_priv'
+151022 18:56:34 [ERROR] mysqld.exe: Table '.\mysql\columns_priv' is marked as crashed and should be repaired
+151022 18:56:34 [Warning] Checking table:   '.\mysql\columns_priv'
+151022 18:56:34 [ERROR] mysql.columns_priv: 1 client is using or hasn't closed the table properly
+151022 18:56:34 [ERROR] mysqld.exe: Table '.\mysql\procs_priv' is marked as crashed and should be repaired
+151022 18:56:34 [Warning] Checking table:   '.\mysql\procs_priv'
+151022 18:56:34 [ERROR] mysql.procs_priv: 1 client is using or hasn't closed the table properly
+151022 18:56:35 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+151022 18:56:35 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+151022 18:56:35 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1146: Table 'mysql.gtid_slave_pos' doesn't exist
+151022 18:56:35 [Note] d:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.0.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+151022 18:57:37 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2015-10-22 18:57:38 122c InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-22 18:57:38 122c InnoDB: Error: Fetch of persistent statistics requested for table "phpmyadmin"."pma_navigationhiding" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+151022 18:57:38 [ERROR] mysqld.exe: Table '.\phpmyadmin\pma_recent' is marked as crashed and should be repaired
+151022 18:57:38 [Warning] Checking table:   '.\phpmyadmin\pma_recent'
+2015-10-22 18:57:38 122c InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-22 18:57:38 122c InnoDB: Error: Fetch of persistent statistics requested for table "phpmyadmin"."pma_usergroups" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-10-22 18:57:38 122c InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-22 18:57:38 122c InnoDB: Error: Fetch of persistent statistics requested for table "phpmyadmin"."pma_users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+151022 18:57:42 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:57:46 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:57:54 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:57:58 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:58:09 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:58:11 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:58:12 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:58:35 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2015-10-22 18:58:35 1bc0 InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-22 18:58:35 1bc0 InnoDB: Error: Fetch of persistent statistics requested for table "dbtest"."media" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-10-22 18:58:35 1bc0 InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-22 18:58:35 1bc0 InnoDB: Error: Fetch of persistent statistics requested for table "dbtest"."users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+151022 18:58:39 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:58:41 [ERROR] Incorrect definition of table mysql.proc: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVA
+151022 18:58:44 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:58:47 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2015-10-22 18:58:47 122c InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+151022 18:58:52 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:58:56 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:58:58 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2015-10-22 18:58:59 122c InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+151022 18:59:01 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:59:07 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:59:25 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:59:26 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 18:59:28 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:07:10 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:08:12 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:08:16 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:08:21 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:08:22 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:08:23 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:08:25 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:08:29 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:08:33 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:08:39 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:08:42 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:08:43 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:08:48 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:09:42 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:09:47 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:09:55 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:09:59 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:12:07 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:12:12 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:12:15 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:12:18 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:16:03 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:16:08 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:16:15 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:16:21 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:18:51 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:18:54 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:18:57 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:19:08 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:19:11 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:19:14 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:19:18 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:19:23 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:19:25 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:19:27 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:19:31 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:23:25 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:23:28 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:24:08 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:25:27 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:25:30 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:25:33 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:25:35 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:25:38 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:25:40 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:25:44 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:26:59 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:27:03 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:27:05 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:27:08 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:27:11 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:27:13 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:27:16 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:27:16 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:27:18 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:38:14 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:38:18 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:38:49 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:38:52 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:40:32 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:44:36 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:44:40 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:44:43 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:44:48 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:45:50 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:45:54 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:45:57 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:46:03 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:48:10 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:48:13 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:48:18 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:48:20 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:48:22 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:48:25 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:48:28 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:48:29 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:48:30 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:48:31 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:48:33 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:48:38 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:49:20 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:49:24 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:49:26 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:49:29 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:49:30 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:49:31 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:49:33 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:49:36 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:49:39 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:49:39 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:49:42 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:49:45 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:50:43 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:50:48 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:50:51 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:50:54 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:50:58 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:51:07 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:51:07 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:51:17 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:51:19 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:52:14 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:52:16 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:52:20 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:52:27 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:52:30 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:52:34 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:53:00 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:53:19 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:53:30 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:54:47 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:54:53 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:54:54 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:55:00 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:55:02 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:55:05 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 19:55:11 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:02:07 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:02:12 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:02:13 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:03:12 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:03:15 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:05:53 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:05:57 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:06:05 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:06:11 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:08:00 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:08:03 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:08:06 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:08:11 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:10:31 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:10:36 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:13:43 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:14:07 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:14:10 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:14:14 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:14:16 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:14:19 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:14:23 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:14:25 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:14:32 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:14:51 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:14:59 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:15:52 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:15:56 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:15:59 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:16:01 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:16:08 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:16:10 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:16:13 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:16:16 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:16:20 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:16:36 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:16:40 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:17:08 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:17:12 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:17:22 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:17:30 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:18:11 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:18:15 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:29:57 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151022 20:30:00 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  0:51:50 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  0:52:04 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  0:52:26 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  0:52:30 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  0:52:34 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  0:52:40 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  0:58:34 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  0:58:39 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  0:59:12 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  0:59:17 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:11:41 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:11:57 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:11:59 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:13:43 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:14:00 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:14:01 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:16:55 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:17:14 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:17:16 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:19:01 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:19:18 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:19:20 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:33:17 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:33:32 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:33:34 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:45:17 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:45:25 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:45:33 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  1:45:38 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  2:34:33 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  2:34:39 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  2:34:43 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  4:56:26 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  4:56:43 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  4:56:46 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  5:35:03 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  5:35:07 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  6:17:59 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  6:18:03 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  6:18:06 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  6:18:10 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  6:18:13 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2015-10-23 07:02:04 1898 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+151023  7:02:04 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+151023  7:02:04 [Note] InnoDB: The InnoDB memory heap is disabled
+151023  7:02:04 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+151023  7:02:04 [Note] InnoDB: Memory barrier is not used
+151023  7:02:04 [Note] InnoDB: Compressed tables use zlib 1.2.3
+151023  7:02:04 [Note] InnoDB: Not using CPU crc32 instructions
+151023  7:02:04 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+151023  7:02:04 [Note] InnoDB: Completed initialization of buffer pool
+151023  7:02:05 [Note] InnoDB: Highest supported file format is Barracuda.
+151023  7:02:05 [Note] InnoDB: The log sequence numbers 1665244 and 1665244 in ibdata files do not match the log sequence number 1675853 in the ib_logfiles!
+151023  7:02:05 [Note] InnoDB: Database was not shutdown normally!
+151023  7:02:05 [Note] InnoDB: Starting crash recovery.
+151023  7:02:05 [Note] InnoDB: Reading tablespace information from the .ibd files...
+151023  7:02:05 [Note] InnoDB: Restoring possible half-written data pages 
+151023  7:02:05 [Note] InnoDB: from the doublewrite buffer...
+151023  7:02:05 [Note] InnoDB: 128 rollback segment(s) are active.
+151023  7:02:05 [Note] InnoDB: Waiting for purge to start
+151023  7:02:06 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.22-72.0 started; log sequence number 1675853
+151023  7:02:06 [Note] Plugin 'FEEDBACK' is disabled.
+151023  7:02:06 [Note] Server socket created on IP: '::'.
+151023  7:02:06 [ERROR] mysqld.exe: Table '.\mysql\db' is marked as crashed and should be repaired
+151023  7:02:06 [Warning] Checking table:   '.\mysql\db'
+151023  7:02:06 [ERROR] mysql.db: 1 client is using or hasn't closed the table properly
+151023  7:02:06 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  7:02:06 [ERROR] mysqld.exe: Table '.\mysql\tables_priv' is marked as crashed and should be repaired
+151023  7:02:06 [Warning] Checking table:   '.\mysql\tables_priv'
+151023  7:02:06 [ERROR] mysql.tables_priv: 1 client is using or hasn't closed the table properly
+151023  7:02:06 [ERROR] mysql.tables_priv: Found more than the expected 1 deleted rows in delete link chain
+151023  7:02:06 [ERROR] mysql.tables_priv: record delete-link-chain corrupted
+151023  7:02:06 [ERROR] Got an error from unknown thread, ha_myisam.cc:952
+151023  7:02:06 [Warning] Recovering table: '.\mysql\tables_priv'
+151023  7:02:06 [ERROR] mysqld.exe: Table '.\mysql\columns_priv' is marked as crashed and should be repaired
+151023  7:02:06 [Warning] Checking table:   '.\mysql\columns_priv'
+151023  7:02:06 [ERROR] mysql.columns_priv: 1 client is using or hasn't closed the table properly
+151023  7:02:06 [ERROR] mysqld.exe: Table '.\mysql\procs_priv' is marked as crashed and should be repaired
+151023  7:02:06 [Warning] Checking table:   '.\mysql\procs_priv'
+151023  7:02:06 [ERROR] mysql.procs_priv: 1 client is using or hasn't closed the table properly
+151023  7:02:08 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+151023  7:02:08 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+151023  7:02:08 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1146: Table 'mysql.gtid_slave_pos' doesn't exist
+151023  7:02:08 [Note] d:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.0.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2015-10-23 08:57:18 694 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+151023  8:57:18 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+151023  8:57:18 [Note] InnoDB: The InnoDB memory heap is disabled
+151023  8:57:18 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+151023  8:57:18 [Note] InnoDB: Memory barrier is not used
+151023  8:57:18 [Note] InnoDB: Compressed tables use zlib 1.2.3
+151023  8:57:18 [Note] InnoDB: Not using CPU crc32 instructions
+151023  8:57:18 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+151023  8:57:18 [Note] InnoDB: Completed initialization of buffer pool
+151023  8:57:18 [Note] InnoDB: Highest supported file format is Barracuda.
+151023  8:57:18 [Note] InnoDB: The log sequence numbers 1665244 and 1665244 in ibdata files do not match the log sequence number 1675863 in the ib_logfiles!
+151023  8:57:18 [Note] InnoDB: Database was not shutdown normally!
+151023  8:57:18 [Note] InnoDB: Starting crash recovery.
+151023  8:57:18 [Note] InnoDB: Reading tablespace information from the .ibd files...
+151023  8:57:19 [Note] InnoDB: Restoring possible half-written data pages 
+151023  8:57:19 [Note] InnoDB: from the doublewrite buffer...
+151023  8:57:19 [Note] InnoDB: 128 rollback segment(s) are active.
+151023  8:57:19 [Note] InnoDB: Waiting for purge to start
+151023  8:57:19 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.22-72.0 started; log sequence number 1675863
+151023  8:57:19 [Note] Plugin 'FEEDBACK' is disabled.
+151023  8:57:19 [Note] Server socket created on IP: '::'.
+151023  8:57:19 [ERROR] Can't start server: Bind on TCP/IP port. Got error: 10048: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+
+151023  8:57:19 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+151023  8:57:19 [ERROR] Aborting
+
+151023  8:57:19 [Note] InnoDB: FTS optimize thread exiting.
+151023  8:57:19 [Note] InnoDB: Starting shutdown...
+151023  8:57:22 [Note] InnoDB: Shutdown completed; log sequence number 1675873
+151023  8:57:23 [Note] d:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2015-10-23 09:00:44 1624 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+151023  9:00:44 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+151023  9:00:44 [Note] InnoDB: The InnoDB memory heap is disabled
+151023  9:00:44 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+151023  9:00:44 [Note] InnoDB: Memory barrier is not used
+151023  9:00:44 [Note] InnoDB: Compressed tables use zlib 1.2.3
+151023  9:00:44 [Note] InnoDB: Not using CPU crc32 instructions
+151023  9:00:44 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+151023  9:00:44 [Note] InnoDB: Completed initialization of buffer pool
+151023  9:00:44 [Note] InnoDB: Highest supported file format is Barracuda.
+151023  9:00:45 [Note] InnoDB: 128 rollback segment(s) are active.
+151023  9:00:45 [Note] InnoDB: Waiting for purge to start
+151023  9:00:45 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.22-72.0 started; log sequence number 1675873
+151023  9:00:45 [Note] Plugin 'FEEDBACK' is disabled.
+151023  9:00:45 [Note] Server socket created on IP: '::'.
+151023  9:00:45 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+151023  9:00:46 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+151023  9:00:46 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+151023  9:00:46 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1146: Table 'mysql.gtid_slave_pos' doesn't exist
+151023  9:00:46 [Note] d:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.0.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+151023  9:01:43 [ERROR] mysqld.exe: Table '.\dbtest\users' is marked as crashed and should be repaired
+151023  9:01:43 [Warning] Checking table:   '.\dbtest\users'
+151023  9:03:00 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2015-10-23 09:03:01 16ac InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-23 09:03:01 16ac InnoDB: Error: Fetch of persistent statistics requested for table "phpmyadmin"."pma_navigationhiding" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+151023  9:03:01 [ERROR] mysqld.exe: Table '.\phpmyadmin\pma_recent' is marked as crashed and should be repaired
+151023  9:03:01 [Warning] Checking table:   '.\phpmyadmin\pma_recent'
+2015-10-23 09:03:01 16ac InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-23 09:03:01 16ac InnoDB: Error: Fetch of persistent statistics requested for table "phpmyadmin"."pma_usergroups" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-10-23 09:03:01 16ac InnoDB: Error: Column last_update in table "mysql"."innodb_table_stats" is BINARY(4) NOT NULL but should be INT NOT NULL (type mismatch).
+2015-10-23 09:03:01 16ac InnoDB: Error: Fetch of persistent statistics requested for table "phpmyadmin"."pma_users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-10-23 09:03:59 1978 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+151023  9:03:59 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+151023  9:03:59 [Note] InnoDB: The InnoDB memory heap is disabled
+151023  9:03:59 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+151023  9:03:59 [Note] InnoDB: Memory barrier is not used
+151023  9:03:59 [Note] InnoDB: Compressed tables use zlib 1.2.3
+151023  9:03:59 [Note] InnoDB: Not using CPU crc32 instructions
+151023  9:03:59 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+151023  9:03:59 [Note] InnoDB: Completed initialization of buffer pool
+2015-10-23 09:03:59 13a0 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+151023  9:03:59 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+151023  9:03:59 [Note] InnoDB: The InnoDB memory heap is disabled
+151023  9:03:59 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+151023  9:03:59 [Note] InnoDB: Memory barrier is not used
+151023  9:03:59 [Note] InnoDB: Compressed tables use zlib 1.2.3
+151023  9:03:59 [Note] InnoDB: Not using CPU crc32 instructions
+151023  9:03:59 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+151023  9:03:59 [Note] InnoDB: Completed initialization of buffer pool
+151023  9:03:59 [Note] InnoDB: Highest supported file format is Barracuda.
+151023  9:03:59 [ERROR] InnoDB: D:\xampp\mysql\data\ibdata1 can't be opened in read-write mode
+151023  9:03:59 [ERROR] InnoDB: The system tablespace must be writable!
+151023  9:03:59 [ERROR] Plugin 'InnoDB' init function returned error.
+151023  9:03:59 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+151023  9:03:59 [Note] Plugin 'FEEDBACK' is disabled.
+151023  9:03:59 [Note] InnoDB: The log sequence numbers 1675873 and 1675873 in ibdata files do not match the log sequence number 1675883 in the ib_logfiles!
+151023  9:03:59 [Note] InnoDB: Database was not shutdown normally!
+151023  9:03:59 [Note] InnoDB: Starting crash recovery.
+151023  9:03:59 [Note] InnoDB: Reading tablespace information from the .ibd files...
+151023  9:03:59 [ERROR] Unknown/unsupported storage engine: InnoDB
+151023  9:03:59 [ERROR] Aborting
+
+151023  9:04:00 [Note] d:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+151023  9:04:00 [Note] InnoDB: Restoring possible half-written data pages 
+151023  9:04:00 [Note] InnoDB: from the doublewrite buffer...
+151023  9:04:00 [Note] InnoDB: 128 rollback segment(s) are active.
+151023  9:04:00 [Note] InnoDB: Waiting for purge to start
+151023  9:04:00 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.22-72.0 started; log sequence number 1675883
+151023  9:04:00 [Note] Plugin 'FEEDBACK' is disabled.
+151023  9:04:00 [Note] Server socket created on IP: '::'.
