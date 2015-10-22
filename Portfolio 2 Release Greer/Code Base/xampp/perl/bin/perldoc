@@ -1,0 +1,7 @@
+#!C:/Users/newvo/DesktopC:/Users/Michael/Desktop/xampp/perl/bin/perl.exe
+
+require 5;
+BEGIN { $^W = 1 if $ENV{'PERLDOCDEBUG'} }
+use Pod::Perldoc;
+exit( Pod::Perldoc->run() );
+

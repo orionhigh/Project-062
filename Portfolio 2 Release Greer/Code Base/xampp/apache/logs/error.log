@@ -1,0 +1,388 @@
+[Wed Oct 21 22:55:15 2015] [notice] Digest: generating secret for digest authentication ...
+[Wed Oct 21 22:55:15 2015] [notice] Digest: done
+[Wed Oct 21 22:55:15 2015] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 mod_apreq2-20090110/2.7.1 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Wed Oct 21 22:55:15 2015] [notice] Server built: Nov 11 2009 14:29:03
+[Wed Oct 21 22:55:15 2015] [notice] Parent: Created child process 10360
+[Wed Oct 21 22:55:16 2015] [notice] Digest: generating secret for digest authentication ...
+[Wed Oct 21 22:55:16 2015] [notice] Digest: done
+[Wed Oct 21 22:55:16 2015] [notice] Child 10360: Child process is running
+[Wed Oct 21 22:55:16 2015] [notice] Child 10360: Acquired the start mutex.
+[Wed Oct 21 22:55:16 2015] [notice] Child 10360: Starting 150 worker threads.
+[Wed Oct 21 22:55:16 2015] [notice] Child 10360: Starting thread to listen on port 443.
+[Wed Oct 21 22:55:16 2015] [notice] Child 10360: Starting thread to listen on port 443.
+[Wed Oct 21 22:55:16 2015] [notice] Child 10360: Starting thread to listen on port 80.
+[Wed Oct 21 22:55:16 2015] [notice] Child 10360: Starting thread to listen on port 80.
+[Wed Oct 21 22:56:58 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/css, referer: http://localhost/verify.php?email=mba.greer@gmail.com&hash=3621f1454cacf995530ea53652ddf8fb
+[Wed Oct 21 22:57:16 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:08:29 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:09:06 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:11:43 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:11:51 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:11:55 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:12:16 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:12:28 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:12:58 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:13:53 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:14:35 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:15:05 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:16:06 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:24:35 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:27:11 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:34:41 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:35:23 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:36:03 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:36:39 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:37:40 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:39:12 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:39:53 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Wed Oct 21 23:40:39 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=invalid
+[Wed Oct 21 23:40:48 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=true
+[Wed Oct 21 23:40:53 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=true
+[Wed Oct 21 23:41:12 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=true
+[Wed Oct 21 23:42:36 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=true
+[Wed Oct 21 23:55:10 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=true
+[Wed Oct 21 23:56:15 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=invalid
+[Wed Oct 21 23:57:09 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=invalid
+[Thu Oct 22 00:00:37 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=invalid
+[Thu Oct 22 00:01:02 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:01:27 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:01:54 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:03:02 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:05:04 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:05:06 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:06:19 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:06:19 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:09:16 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:09:24 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=invalid
+[Thu Oct 22 00:10:11 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:10:17 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=invalid
+[Thu Oct 22 00:11:21 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=invalid
+[Thu Oct 22 00:12:35 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=invalid
+[Thu Oct 22 00:12:50 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=invalid
+[Thu Oct 22 00:13:12 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:13:19 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=invalid
+[Thu Oct 22 00:16:15 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=invalid
+[Thu Oct 22 00:16:20 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:16:25 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=invalid
+[Thu Oct 22 00:17:01 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:24:46 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=true
+[Thu Oct 22 00:26:01 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:26:42 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=invalid
+[Thu Oct 22 00:27:29 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?
+[Thu Oct 22 00:28:15 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?
+[Thu Oct 22 00:28:31 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?
+[Thu Oct 22 00:30:20 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?
+[Thu Oct 22 00:33:04 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?
+[Thu Oct 22 00:35:38 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?
+[Thu Oct 22 00:35:54 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?
+[Thu Oct 22 00:36:03 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?
+[Thu Oct 22 00:37:25 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?
+[Thu Oct 22 00:38:41 2015] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 22 00:38:41 2015] [notice] Child 10360: Exit event signaled. Child process is ending.
+[Thu Oct 22 00:38:42 2015] [notice] Child 10360: Released the start mutex
+[Thu Oct 22 00:38:43 2015] [notice] Child 10360: All worker threads have exited.
+[Thu Oct 22 00:38:43 2015] [notice] Child 10360: Child process is exiting
+[Thu Oct 22 00:38:43 2015] [notice] Parent: Child process exited successfully.
+[Thu Oct 22 00:38:50 2015] [notice] Digest: generating secret for digest authentication ...
+[Thu Oct 22 00:38:50 2015] [notice] Digest: done
+[Thu Oct 22 00:38:51 2015] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 mod_apreq2-20090110/2.7.1 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Thu Oct 22 00:38:51 2015] [notice] Server built: Nov 11 2009 14:29:03
+[Thu Oct 22 00:38:51 2015] [notice] Parent: Created child process 9000
+[Thu Oct 22 00:38:52 2015] [notice] Digest: generating secret for digest authentication ...
+[Thu Oct 22 00:38:52 2015] [notice] Digest: done
+[Thu Oct 22 00:38:52 2015] [notice] Child 9000: Child process is running
+[Thu Oct 22 00:38:52 2015] [notice] Child 9000: Acquired the start mutex.
+[Thu Oct 22 00:38:52 2015] [notice] Child 9000: Starting 150 worker threads.
+[Thu Oct 22 00:38:52 2015] [notice] Child 9000: Starting thread to listen on port 443.
+[Thu Oct 22 00:38:52 2015] [notice] Child 9000: Starting thread to listen on port 443.
+[Thu Oct 22 00:38:52 2015] [notice] Child 9000: Starting thread to listen on port 80.
+[Thu Oct 22 00:38:52 2015] [notice] Child 9000: Starting thread to listen on port 80.
+[Thu Oct 22 00:38:59 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:39:08 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=true
+[Thu Oct 22 00:39:17 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=true
+[Thu Oct 22 00:40:37 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php?success=true
+[Thu Oct 22 00:40:55 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:41:22 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:41:40 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 00:49:15 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 01:16:43 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/favicon.ico
+[Thu Oct 22 01:16:43 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/favicon.ico
+[Thu Oct 22 01:29:42 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:31:23 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:32:15 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:32:22 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:32:50 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:32:53 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:33:35 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:33:36 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:33:40 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:33:41 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:33:48 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:33:54 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:34:13 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:34:37 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:34:39 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:34:50 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:34:53 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:35:02 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:35:04 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:35:16 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:35:25 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:36:18 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:36:23 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:36:34 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:36:39 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:36:41 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:36:44 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:36:47 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:36:51 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:36:56 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:37:04 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 01:39:58 2015] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 22 01:39:58 2015] [notice] Child 9000: Exit event signaled. Child process is ending.
+[Thu Oct 22 01:39:59 2015] [notice] Child 9000: Released the start mutex
+[Thu Oct 22 01:40:00 2015] [notice] Child 9000: All worker threads have exited.
+[Thu Oct 22 01:40:00 2015] [notice] Child 9000: Child process is exiting
+[Thu Oct 22 01:40:00 2015] [notice] Parent: Child process exited successfully.
+[Thu Oct 22 12:13:09 2015] [notice] Digest: generating secret for digest authentication ...
+[Thu Oct 22 12:13:09 2015] [notice] Digest: done
+[Thu Oct 22 12:13:09 2015] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 mod_apreq2-20090110/2.7.1 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Thu Oct 22 12:13:09 2015] [notice] Server built: Nov 11 2009 14:29:03
+[Thu Oct 22 12:13:09 2015] [notice] Parent: Created child process 3068
+[Thu Oct 22 12:13:10 2015] [notice] Digest: generating secret for digest authentication ...
+[Thu Oct 22 12:13:10 2015] [notice] Digest: done
+[Thu Oct 22 12:13:10 2015] [notice] Child 3068: Child process is running
+[Thu Oct 22 12:13:10 2015] [notice] Child 3068: Acquired the start mutex.
+[Thu Oct 22 12:13:10 2015] [notice] Child 3068: Starting 150 worker threads.
+[Thu Oct 22 12:13:10 2015] [notice] Child 3068: Starting thread to listen on port 443.
+[Thu Oct 22 12:13:10 2015] [notice] Child 3068: Starting thread to listen on port 443.
+[Thu Oct 22 12:13:10 2015] [notice] Child 3068: Starting thread to listen on port 80.
+[Thu Oct 22 12:13:10 2015] [notice] Child 3068: Starting thread to listen on port 80.
+[Thu Oct 22 12:13:29 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/favicon.ico, referer: http://localhost/
+[Thu Oct 22 12:13:33 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 12:13:55 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 12:15:20 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 12:26:33 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/favicon.ico
+[Thu Oct 22 12:26:33 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/favicon.ico
+[Thu Oct 22 12:26:46 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:26:52 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:27:59 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:29:04 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:29:16 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:29:35 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:30:36 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:32:25 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:33:32 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:33:58 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:36:18 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:38:21 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:39:23 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:39:24 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:39:39 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:39:41 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:39:57 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:39:59 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:40:21 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:41:12 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:41:17 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:45:41 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:46:15 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:46:29 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:46:31 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:46:43 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:46:54 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:46:56 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:47:00 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:47:02 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:47:11 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:47:21 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:47:30 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:47:40 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:48:05 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:48:08 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:48:21 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:48:23 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:49:01 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:49:04 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:49:10 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:49:12 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:49:31 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:49:56 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:50:06 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:51:50 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:51:52 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:52:17 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:53:14 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:53:17 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:53:25 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:53:27 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:54:18 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:54:20 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:54:31 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:54:33 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:56:29 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:56:34 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:57:17 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:57:23 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:57:26 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:58:07 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:58:21 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:58:30 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:58:38 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:58:49 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:58:51 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:58:52 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:59:12 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:59:19 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:59:30 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:59:33 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:59:33 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 12:59:57 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:01:04 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:01:20 2015] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 22 13:01:20 2015] [notice] Child 3068: Exit event signaled. Child process is ending.
+[Thu Oct 22 13:01:21 2015] [notice] Child 3068: Released the start mutex
+[Thu Oct 22 13:01:22 2015] [notice] Child 3068: All worker threads have exited.
+[Thu Oct 22 13:01:23 2015] [notice] Child 3068: Child process is exiting
+[Thu Oct 22 13:01:23 2015] [notice] Parent: Child process exited successfully.
+[Thu Oct 22 13:01:24 2015] [notice] Digest: generating secret for digest authentication ...
+[Thu Oct 22 13:01:24 2015] [notice] Digest: done
+[Thu Oct 22 13:01:24 2015] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 mod_apreq2-20090110/2.7.1 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Thu Oct 22 13:01:24 2015] [notice] Server built: Nov 11 2009 14:29:03
+[Thu Oct 22 13:01:24 2015] [notice] Parent: Created child process 9544
+[Thu Oct 22 13:01:25 2015] [notice] Digest: generating secret for digest authentication ...
+[Thu Oct 22 13:01:25 2015] [notice] Digest: done
+[Thu Oct 22 13:01:26 2015] [notice] Child 9544: Child process is running
+[Thu Oct 22 13:01:26 2015] [notice] Child 9544: Acquired the start mutex.
+[Thu Oct 22 13:01:26 2015] [notice] Child 9544: Starting 150 worker threads.
+[Thu Oct 22 13:01:26 2015] [notice] Child 9544: Starting thread to listen on port 443.
+[Thu Oct 22 13:01:26 2015] [notice] Child 9544: Starting thread to listen on port 443.
+[Thu Oct 22 13:01:26 2015] [notice] Child 9544: Starting thread to listen on port 80.
+[Thu Oct 22 13:01:26 2015] [notice] Child 9544: Starting thread to listen on port 80.
+[Thu Oct 22 13:01:40 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:01:49 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:03:26 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:04:08 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Rick and Morty - S02E02 - Jerryboree.mp4, referer: http://localhost/home.php
+[Thu Oct 22 13:04:08 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Rick and Morty - S02E01 - A Rickle in Time.mp4, referer: http://localhost/home.php
+[Thu Oct 22 13:04:08 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Rick and Morty - S02E02 - Jerryboree.mp4, referer: http://localhost/home.php
+[Thu Oct 22 13:04:08 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Rick and Morty - S02E01 - A Rickle in Time.mp4, referer: http://localhost/home.php
+[Thu Oct 22 13:04:09 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Jauz - Live set from HARD SUMMER 2015_218161077 - JAUZ.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:04:09 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Flight Facilities - Clair De Lune (feat. Christine Hoberg) - flightfacilities.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:04:09 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Jauz - Live set from HARD SUMMER 2015_218161077 - JAUZ.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:04:09 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Flight Facilities - Clair De Lune (feat. Christine Hoberg) - flightfacilities.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:04:09 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Flight Facilities - Clair De Lune (feat. Christine Hoberg) - flightfacilities.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:04:09 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Jauz - Live set from HARD SUMMER 2015_218161077 - JAUZ.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:04:18 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/IMG_4387.jpg, referer: http://localhost/home.php
+[Thu Oct 22 13:04:18 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:04:19 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Rick and Morty - S02E02 - Jerryboree.mp4, referer: http://localhost/home.php
+[Thu Oct 22 13:04:19 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Rick and Morty - S02E01 - A Rickle in Time.mp4, referer: http://localhost/home.php
+[Thu Oct 22 13:04:19 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Rick and Morty - S02E02 - Jerryboree.mp4, referer: http://localhost/home.php
+[Thu Oct 22 13:04:19 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Rick and Morty - S02E01 - A Rickle in Time.mp4, referer: http://localhost/home.php
+[Thu Oct 22 13:04:19 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Flight Facilities - Clair De Lune (feat. Christine Hoberg) - flightfacilities.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:04:19 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Jauz - Live set from HARD SUMMER 2015_218161077 - JAUZ.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:04:19 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Flight Facilities - Clair De Lune (feat. Christine Hoberg) - flightfacilities.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:04:19 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Jauz - Live set from HARD SUMMER 2015_218161077 - JAUZ.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:04:19 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Jauz - Live set from HARD SUMMER 2015_218161077 - JAUZ.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:04:19 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Flight Facilities - Clair De Lune (feat. Christine Hoberg) - flightfacilities.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:15:42 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/IMG_4387.jpg, referer: http://localhost/home.php
+[Thu Oct 22 13:15:43 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Rick and Morty - S02E02 - Jerryboree.mp4, referer: http://localhost/home.php
+[Thu Oct 22 13:15:43 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Rick and Morty - S02E01 - A Rickle in Time.mp4, referer: http://localhost/home.php
+[Thu Oct 22 13:15:43 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Rick and Morty - S02E02 - Jerryboree.mp4, referer: http://localhost/home.php
+[Thu Oct 22 13:15:43 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Rick and Morty - S02E01 - A Rickle in Time.mp4, referer: http://localhost/home.php
+[Thu Oct 22 13:15:43 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Jauz - Live set from HARD SUMMER 2015_218161077 - JAUZ.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:15:43 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Flight Facilities - Clair De Lune (feat. Christine Hoberg) - flightfacilities.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:15:43 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Flight Facilities - Clair De Lune (feat. Christine Hoberg) - flightfacilities.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:15:43 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Flight Facilities - Clair De Lune (feat. Christine Hoberg) - flightfacilities.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:15:43 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Jauz - Live set from HARD SUMMER 2015_218161077 - JAUZ.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:15:43 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Jauz - Live set from HARD SUMMER 2015_218161077 - JAUZ.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:16:56 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/IMG_4387.jpg, referer: http://localhost/home.php
+[Thu Oct 22 13:16:56 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Rick and Morty - S02E02 - Jerryboree.mp4, referer: http://localhost/home.php
+[Thu Oct 22 13:16:56 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Rick and Morty - S02E01 - A Rickle in Time.mp4, referer: http://localhost/home.php
+[Thu Oct 22 13:16:56 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Rick and Morty - S02E02 - Jerryboree.mp4, referer: http://localhost/home.php
+[Thu Oct 22 13:16:56 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Rick and Morty - S02E01 - A Rickle in Time.mp4, referer: http://localhost/home.php
+[Thu Oct 22 13:16:57 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Flight Facilities - Clair De Lune (feat. Christine Hoberg) - flightfacilities.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:16:57 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Jauz - Live set from HARD SUMMER 2015_218161077 - JAUZ.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:16:57 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/One Touch feat. AlunaGeorge (SKULS RIP).mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:16:57 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Flight Facilities - Clair De Lune (feat. Christine Hoberg) - flightfacilities.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:16:57 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Jauz - Live set from HARD SUMMER 2015_218161077 - JAUZ.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:16:57 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Flight Facilities - Clair De Lune (feat. Christine Hoberg) - flightfacilities.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:16:57 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/upload/Jauz - Live set from HARD SUMMER 2015_218161077 - JAUZ.mp3, referer: http://localhost/home.php
+[Thu Oct 22 13:20:02 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/home.php
+[Thu Oct 22 13:20:30 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:20:32 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:20:32 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:36:50 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:37:09 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:37:49 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:37:50 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:37:51 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:38:12 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:38:27 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:38:46 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:38:48 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:38:48 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:38:50 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:38:51 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:39:02 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:39:05 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:39:06 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:39:08 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:39:09 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:40:34 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:41:18 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:41:21 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:41:44 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:41:58 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:42:01 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:42:01 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:42:03 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:42:38 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:42:49 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:42:50 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:42:58 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:44:17 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:44:49 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:44:53 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:44:54 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:44:58 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:45:09 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:45:12 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:45:13 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:45:15 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:45:19 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:45:34 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:45:37 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:45:38 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:46:00 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:46:02 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:46:03 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:46:05 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:46:09 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:46:44 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:47:25 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:47:27 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:48:37 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:48:42 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:52:43 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:52:46 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:52:47 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:52:49 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:55:05 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:55:08 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:55:09 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:55:10 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:56:41 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:56:42 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 13:56:52 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 14:11:07 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 14:11:10 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 14:11:11 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 14:11:13 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 14:11:47 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 14:11:50 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 14:11:50 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 14:11:52 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 14:13:36 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 14:13:39 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 14:13:39 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
+[Thu Oct 22 14:13:41 2015] [error] [client ::1] File does not exist: C:/Users/Michael/Desktop/xampp/htdocs/compass, referer: http://localhost/tables.css
